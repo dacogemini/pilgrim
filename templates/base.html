@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--~~~~~~~~~~~~~~~ Styles ~~~~~~~~~~~~~~~-->
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{% static 'css/font-awesome-ie7.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.css' %}">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-responsive.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-responsive.min.css' %}">
+
+    <!-- Animation -->
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    
+    <!-- Components & Misc. -->
+    <link rel="stylesheet" href="{% static 'css/refineslide-theme-dark.css' %}">
+    <link rel="stylesheet" href="{% static 'css/refineslide.css' %}">
+    <link rel="stylesheet" href="{% static 'css/docs.css' %}">
+    <link rel="stylesheet" href="{% static 'css/flexslider.css' %}">
+    <link rel="stylesheet" href="{% static 'css/headerfix.css' %}">
+    <link rel="stylesheet" href="{% static 'css/prettyPhoto.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- Colors -->
+    <link rel="stylesheet" href="{% static 'color/default.css' %}">
+    
+    <!-- Google -->
+    <link rel="stylesheet" href="{% static 'js/google-code-prettify/prettify.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lalezar&display=swap" rel="stylesheet">
+
+    <!--~~~~~~~~~~~~~ End_Styles ~~~~~~~~~~~~~-->
+    <title>Rockin' Website'</title>
+</head>
+<!--~~~~~~~~~~~~~~~~ Body ~~~~~~~~~~~~~~~~-->
+<body>
+
+    <!-- NAVBAR -->
+    {% include 'partials/_navbar.html' %}
+
+    <!-- MAIN CONTENT GOES HERE -->
+    {% block content %} {% endblock %}
+
+    {% include 'partials/_footer.html' %}
+
+    <!--~~~~~~~~~~~~~~ Scripts ~~~~~~~~~~~~~~~-->
+
+    <!-- Bootstrap & JQuery -->
+    <!-- JQuery -->
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+    <script src="{% static 'js/jquery.ui.totop.js' %}"></script>
+    <script src="{% static 'js/jquery.contenthover.js' %}"></script>
+    <script src="{% static 'js/jquery.elastislide.js' %}"></script>
+    <script src="{% static 'js/jquery.flexslider.js' %}"></script>
+    <script src="{% static 'js/jquery.prettyPhoto.js' %}"></script>
+    <script src="{% static 'js/hover/jquery-hover-effect.js' %}"></script>
+    <!-- Portfolio -->
+    <script src="{% static 'js/portfolio/jquery.quicksand.js' %} "></script>
+    <script src="{% static 'js/portfolio/setting.js' %} "></script>
+
+    <!-- Bootstrap -->
+    <script src="{% static 'js/bootstrap.min.js' %} "></script>
+    <script src="{% static 'js/bootstrap.js' %} "></script>
+
+    <!-- Animate -->
+    <script src="{% static 'js/animate.js' %} "></script>
+    <script src="{% static 'js/modernizr.js' %} "></script>
+    <script src="{% static 'js/cbpAnimatedHeader.min.js' %} "></script>
+
+    <!-- Fontawesome -->
+    <script src="{% static 'js/fontawesome-kit.js' %} "></script>
+
+    <!-- Custom Javascript Files -->
+    <script src="{% static 'js/custom.js' %} "></script>
+    <script src="{% static 'js/classie.js' %} "></script>
+
+    <!--~~~~~~~~~~~~~ End_Scripts ~~~~~~~~~~~~~-->
+
+</body>
+
+</html>

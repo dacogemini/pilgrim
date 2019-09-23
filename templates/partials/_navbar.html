@@ -1,0 +1,44 @@
+<div id="navbar">
+    <div class="cbp-af-header content">
+        <div class=" cbp-af-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="span4">
+                        <!-- logo -->
+                        <div class="logo">
+                            <h1><a href="index.html">JANUS TRAVEL</a></h1>
+                            <!-- <img src="assets/img/logo.png" alt="" /> -->
+                        </div>
+                        <!-- end logo -->
+                    </div>
+                    <div class="span8">
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                                <nav>
+                                    <ul class="nav topnav">
+                                        <li {% if '/' == request.path %} class="active dropdown" {% else %}
+                                            class="dropdown" {% endif %}>
+                                            <a class="nav-link" href="{% url 'index' %}">HOME</a>
+                                        </li>
+                                        <li {% if 'about' in request.path %} class="nav-item active mr-3" {% else %}
+                                            class="nav-item mr-3" {% endif %}>
+                                            <a class="nav-link" href="{% url 'about' %}">ABOUT</a>
+                                        </li>
+                                        <li {% if 'about' in request.path %} class="nav-item active mr-3" {% else %}
+                                            class="nav-item mr-3" {% endif %}>
+                                            <a class="nav-link" href="{% url 'about' %}">TRAVEL DEALS</a>
+                                        </li>
+                                        <li {% if 'about' in request.path %} class="nav-item active mr-3" {% else %}
+                                            class="nav-item mr-3" {% endif %}>
+                                            <a class="nav-link" href="{% url 'about' %}">CONTACT</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
