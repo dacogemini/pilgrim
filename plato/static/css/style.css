@@ -365,7 +365,7 @@ section#subintro {
 }
 
 .highlight.primary {
-	background:#09828c;
+	background:#50B479;
 }
 
 
@@ -1663,6 +1663,15 @@ html[xmlns] .slides {display: block;}
 .loading .flex-viewport {max-height: 300px;}
 .testmonial_slider .slides {zoom: 1;}
 
+.testimonial_container {
+	display: inline-block;
+	border-left-color: #111;
+	padding: 0;
+	position: absolute;
+	margin-bottom: 15px;
+	margin-left: 80px;
+	width: 100%;
+}
 
 
 .testimonial_item {
