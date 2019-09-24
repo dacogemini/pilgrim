@@ -9,3 +9,7 @@ def index(request):
 
 def about(request):
     return render(request, 'pages/about.html')
+
+
+def travel_deals(request):
+    return render(request, 'pages/travel_deals.html')

@@ -225,9 +225,10 @@ nav select.selectmenu, select.selectmenu  {
 /* main content */
 
 #maincontent {
+	border-top:10px solid #3333332a !important;
 	z-index:1000;
 	margin-top:0px;
-	padding:20px 0 0 0;
+	padding:60px 0 0 0;
 }
 
 #maincontent .page-header h3 {
@@ -244,7 +245,7 @@ section#intro{
 	padding: 0;
 	border-bottom:1px solid #e9e9e9;
 	padding-top:60px;
-	margin-bottom:40px;
+	margin-bottom:0px;
 }
 
 .line {
@@ -1665,7 +1666,6 @@ html[xmlns] .slides {display: block;}
 
 .testimonial_container {
 	display: inline-block;
-	border-left-color: #111;
 	padding: 0;
 	position: absolute;
 	margin-bottom: 15px;

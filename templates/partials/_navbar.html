@@ -16,20 +16,20 @@
                             <div class="navbar-inner">
                                 <nav>
                                     <ul class="nav topnav">
-                                        <li {% if '/' == request.path %} class="active dropdown" {% else %}
-                                            class="dropdown" {% endif %}>
+                                        <li {% if '/' == request.path %} class="active" {% else %}
+                                            class="#" {% endif %}>
                                             <a class="nav-link" href="{% url 'index' %}">HOME</a>
                                         </li>
-                                        <li {% if 'about' in request.path %} class="nav-item active mr-3" {% else %}
-                                            class="nav-item mr-3" {% endif %}>
+                                        <li {% if 'about' in request.path %} class="active" {% else %}
+                                            class="#" {% endif %}>
                                             <a class="nav-link" href="{% url 'about' %}">ABOUT</a>
                                         </li>
-                                        <li {% if 'about' in request.path %} class="nav-item active mr-3" {% else %}
-                                            class="nav-item mr-3" {% endif %}>
-                                            <a class="nav-link" href="{% url 'about' %}">TRAVEL DEALS</a>
+                                        <li {% if 'travel_deals' in request.path %} class="active" {% else %}
+                                            class="#" {% endif %}>
+                                            <a class="nav-link" href="{% url 'travel_deals' %}">TRAVEL DEALS</a>
                                         </li>
-                                        <li {% if 'about' in request.path %} class="nav-item active mr-3" {% else %}
-                                            class="nav-item mr-3" {% endif %}>
+                                        <li {% if 'about' in request.path %} class="active" {% else %}
+                                            class="#" {% endif %}>
                                             <a class="nav-link" href="{% url 'about' %}">CONTACT</a>
                                         </li>
                                     </ul>
