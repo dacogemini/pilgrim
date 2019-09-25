@@ -1,54 +1,65 @@
 ::-moz-selection {
-  background: #4eb478;
   color: #fff;
   text-shadow: none;
 }
 ::selection {
-  background: #4eb478;
   color: #fff;
   text-shadow: none;
 }
 
-
 a {
-	color: #4eb478;
+	color: #3fb0ac;
 }
 
 a:hover {
-	color:#398b5b;
+	color:#3fb0ac;
 }
 
 footer .nav-list li a:hover,footer ul.regular li a:hover  {
-	color:#398b5b;
+	color:#3fb0ac;
 }
 
 .btn-link:hover {
-  color: #398b5b;
+  color: #3fb0ac;
+}
+.btn-color-funjet {
+  color: rgb(49, 48, 48);
+  background: #fae596;
+  *background: #fae596;
+}
+.btn-color-funjet:hover,
+.btn-color-funjet.active,
+.btn-color-funjet.disabled,
+.btn-color-funjet[disabled] {
+  color: rgba(22, 21, 21, 0.611);
+  background: #fae496b1;
+  *background: #fae596b1;
 }
 
 .btn-color {
-  background: #4eb478;
-  *background: #4eb478;
+  background: #fae596;
+  *background: #fae596;
 }
 .btn-color:hover,
 .btn-color.active,
 .btn-color.disabled,
 .btn-color[disabled] {
-  background: #398b5b;
-  *background: #398b5b;
+  color: rgba(22, 21, 21, 0.611);
+  background: #fae496b1;
+  *background: #fae596b1;
 }
 
 /* portfolio */
 ul.filter li.active a{
-    background: #4eb478;	
+    background: #3fb0ac;	
 }
 
 ul.filter li a:hover {
-    color: #4eb478;
+    color: #3fb0ac;
 }
 
 .portfolio-area li:hover .desc {
-    background: #4eb478;	
+    background: #3fb0ac;	
 }
 
 
@@ -61,17 +72,17 @@ ul.filter li a:hover {
 }
 [class^="icon-"].active,
 [class*=" icon-"].active {
-    background-color: #4eb478;
+    background-color: #fae596;
 }
 
 /* header */
 
 .navbar .nav li.active a {
-	color:#4eb478;	
+	color:#3fb0ac;	
 }
 
 .navbar .nav li ul.dropdown-menu li a:hover, .navbar .nav li.active ul.dropdown-menu li a:hover  {
-	background:#4eb478;
+	background:#3fb0ac;
 	
 }
 .color {

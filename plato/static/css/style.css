@@ -284,6 +284,7 @@ section#subintro {
 }
 
 .features_content h3 {
+	color: #3fb0ac;
 	letter-spacing:-2px;
 	font-weight:700;
 }
@@ -358,7 +359,7 @@ section#subintro {
 
 /*--- highlight ---*/
 .highlight {
-	color:#FFFFFF;
+	color:white;
 	padding:2px 10px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -366,7 +367,11 @@ section#subintro {
 }
 
 .highlight.primary {
-	background:#368cbf;
+	background:#333333;
+}
+
+.btn-color-primary {
+	background: #dddfd4; 
 }
 
 
@@ -1204,7 +1209,7 @@ i.icon-bg-light:hover {
 
 i.icon-bg-dark {
 	color: #fefefe;
-	background: #384b52;
+	background: #fae596;
 }
 
 .icon-4x, .icon-5x, .icon-6x, .icon-7x, .icon-8x, .icon-9x, .icon-10x {
@@ -1673,6 +1678,9 @@ html[xmlns] .slides {display: block;}
 	width: 100%;
 }
 
+.test-head {
+	color: #173e43;
+}
 
 .testimonial_item {
 	display: inline-block;
@@ -1689,7 +1697,7 @@ html[xmlns] .slides {display: block;}
 	font-style: italic;
 	line-height: 23px;
 	padding: 20px 20px 25px;
-	background: #384b52;
+	background: #3fb0ac;
 	border-radius: 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -1727,7 +1735,6 @@ html[xmlns] .slides {display: block;}
 	font-weight: bold;
 	margin-top: 20px;
 }
-
 
 .testimonial_item .occupation {
 	color: #aaa;
