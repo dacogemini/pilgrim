@@ -241,7 +241,7 @@ section#intro{
 	background:#f5f5f5;
 	height:auto;
 	margin: 0 auto;
-	margin-top:80px;
+	margin-top:110px;
 	padding: 0;
 	border-bottom:1px solid #e9e9e9;
 	padding-top:60px;
@@ -267,7 +267,7 @@ section#subintro {
 	color: #fff;
 	height:auto;
 	padding: 130px 0 0 0;
-	margin-bottom:30px;
+	margin-bottom:0px;
 }
 
 #subintro ul.breadcrumb {
@@ -366,7 +366,7 @@ section#subintro {
 }
 
 .highlight.primary {
-	background:#50B479;
+	background:#368cbf;
 }
 
 
@@ -2291,6 +2291,26 @@ img.alignright{
 
 }
 
+@media (min-width: 320px) and (max-width: 414px) {
+	body {
+		width: 100%;
+	}
+	.cbp-af-header h1 {
+		text-align:center;
+		margin-bottom:10px;
+		font-size: xx-large;
+	}
+	.navbar-inner  {
+		width: 70%;
+	}
+	.jumbotron h2 {
+		font-size: large;
+	}
+	.testimonial_container {
+		display: none;
+	}
+}
+ /** Fix media query  */
 @media (max-width: 767px) {
 
 	.cbp-af-header {
