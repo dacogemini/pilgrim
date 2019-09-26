@@ -68,11 +68,11 @@ ul.filter li a:hover {
 .icon-square:hover,
 .icon-rounded:hover,
 .icon-circled:hover {
-    background-color: #4eb478;
+    background-color: #40B0AC;
 }
 [class^="icon-"].active,
 [class*=" icon-"].active {
-    background-color: #173e43;
+    background-color: #40B0AC;
 }
 
 /* header */
@@ -271,12 +271,12 @@ ul.time-post li.year{
 
 /* footer */
 footer .subfooter {
-	border-top:5px solid #4eb478;
+	border-top:5px solid #40B0AC;
 }
 
 /* misc */
 a.thumbnail:hover {
-  border-color: #4eb478;
+  border-color: #40B0AC;
 }
 
 ul.filter li.active a:hover,.flex-control-nav li a:hover, .flex-control-nav li a.active{

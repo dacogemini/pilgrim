@@ -289,6 +289,10 @@ section#subintro {
 	font-weight:700;
 }
 
+.features_content p{
+	color: rgb(38, 104, 102);
+}
+
 .features .icon i {
 	position: absolute;
 	top: 0px;
