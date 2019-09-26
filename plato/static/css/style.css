@@ -359,7 +359,7 @@ section#subintro {
 
 /*--- highlight ---*/
 .highlight {
-	color:white;
+	color: #333;
 	padding:2px 10px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -367,11 +367,11 @@ section#subintro {
 }
 
 .highlight.primary {
-	background:#333333;
+	/* background:#3EB0AC !important; */
 }
 
 .btn-color-primary {
-	background: #dddfd4; 
+	background: #fae596; 
 }
 
 
@@ -1209,7 +1209,7 @@ i.icon-bg-light:hover {
 
 i.icon-bg-dark {
 	color: #fefefe;
-	background: #fae596;
+	background: #40B0AC;
 }
 
 .icon-4x, .icon-5x, .icon-6x, .icon-7x, .icon-8x, .icon-9x, .icon-10x {
@@ -1697,14 +1697,14 @@ html[xmlns] .slides {display: block;}
 	font-style: italic;
 	line-height: 23px;
 	padding: 20px 20px 25px;
-	background: #3fb0ac;
+	background: #dddfd4;
 	border-radius: 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-o-border-radius: 4px;
 	-ms-border-radius: 4px;
 	position: relative;
-	color:  white;
+	color:  #333;
 }
 
 .testimonial_item p:before {

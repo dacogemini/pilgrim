@@ -23,30 +23,30 @@ footer .nav-list li a:hover,footer ul.regular li a:hover  {
   color: #3fb0ac;
 }
 .btn-color-funjet {
-  color: rgb(49, 48, 48);
-  background: #fae596;
-  *background: #fae596;
+  color: #dddfd4;
+  background: #173e43;
+  *background: #173e43;
 }
 .btn-color-funjet:hover,
 .btn-color-funjet.active,
 .btn-color-funjet.disabled,
 .btn-color-funjet[disabled] {
   color: rgba(22, 21, 21, 0.611);
-  background: #fae496b1;
-  *background: #fae596b1;
+  background: #dddfd4;
+  *background: #dddfd4;
 }
 
 .btn-color {
-  background: #fae596;
-  *background: #fae596;
+  background: #173e43;
+  *background: #173e43;
 }
 .btn-color:hover,
 .btn-color.active,
 .btn-color.disabled,
 .btn-color[disabled] {
   color: rgba(22, 21, 21, 0.611);
-  background: #fae496b1;
-  *background: #fae596b1;
+  background: #dddfd4;
+  *background: #dddfd4;
 }
 
 /* portfolio */
@@ -72,7 +72,7 @@ ul.filter li a:hover {
 }
 [class^="icon-"].active,
 [class*=" icon-"].active {
-    background-color: #fae596;
+    background-color: #173e43;
 }
 
 /* header */
